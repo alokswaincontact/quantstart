@@ -12,7 +12,7 @@ class LinearCongruentialGenerator : public RandomNumberGenerator {
   virtual ~LinearCongruentialGenerator() {};
   
   virtual unsigned long get_random_integer();
-  virtual void get_uniform_draws(std::vector<double> draws); 
+  virtual void get_uniform_draws(std::vector<double>& draws);
 };
 
 #endif
