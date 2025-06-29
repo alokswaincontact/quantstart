@@ -9,6 +9,9 @@ add_executable(asian_option_mc src/main_asian_option_mc.cpp
                                     src/payoff.cpp)
 target_include_directories(asian_option_mc PRIVATE include)
 
+add_executable(european_option_bs src/main_european_option_bs.cpp)
+target_include_directories(european_option_bs PRIVATE include)
+
 add_executable(european_option_mc src/main_european_option_mc.cpp)
 target_include_directories(european_option_mc PRIVATE include)
 
