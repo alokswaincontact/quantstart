@@ -66,7 +66,7 @@ int main(int argc, char **argv) {
   // Monte Carlo options pricing
   double payoff_sum = 0.0;
   for (unsigned i=0; i<num_sims; i++) {
-    std::cout << "Calculating path " << i+1 << " of " << num_sims << std::endl; 
+    //std::cout << "Calculating path " << i+1 << " of " << num_sims << std::endl;
     generate_normal_correlation_paths(rho, spot_draws, vol_draws);
     hest_euler.calc_vol_path(vol_draws, vol_prices);
     hest_euler.calc_spot_path(spot_draws, vol_prices, spot_prices);
