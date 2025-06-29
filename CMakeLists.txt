@@ -12,3 +12,6 @@ target_include_directories(european_option_mc PRIVATE include)
 
 add_executable(linear_congruent_generator src/main_lin_con_gen.cpp src/lin_con_gen.cpp)
 target_include_directories(linear_congruent_generator PRIVATE include)
+
+add_executable(main_statistics src/main_statistics.cpp src/statistics.cpp)
+target_include_directories(main_statistics PRIVATE include)
