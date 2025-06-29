@@ -1,0 +1,7 @@
+**/cscope*
+
+**/tags
+
+build/*
+
+*.swp
