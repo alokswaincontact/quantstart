@@ -88,8 +88,8 @@ double StandardNormalDistribution::var() const { return 1.0; }
 double StandardNormalDistribution::stdev() const { return 1.0; }
 
 // Obtain a sequence of random draws from this distribution
-void StandardNormalDistribution::random_draws(const std::vector& uniform_draws,
-                                              std::vector& dist_draws) {
+void StandardNormalDistribution::random_draws(const std::vector<double>& uniform_draws,
+                                              std::vector<double>& dist_draws) {
   // The simplest method to calculate this is with the Box-Muller method, 
   // which has been used procedurally in many other articles on QuantStart.com
   
