@@ -22,7 +22,7 @@ void CorrelatedSND::correlation_calc(std::vector<double>& dist_draws) {
 }
 
 void CorrelatedSND::random_draws(const std::vector<double>& uniform_draws,
-                                 std::vector<double>>& dist_draws) {
+                                 std::vector<double>& dist_draws) {
   // The following functionality is lifted directly from 
   // statistics.h, which is fully commented!
   if (uniform_draws.size() != dist_draws.size()) {
