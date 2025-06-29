@@ -1,5 +1,5 @@
-#ifndef __PAY_OFF_CPP
-#define __PAY_OFF_CPP
+//#ifndef __PAY_OFF_CPP
+//#define __PAY_OFF_CPP
 
 #include "payoff.h"
 
@@ -31,4 +31,4 @@ double PayOffPut::operator() (const double& S) const {
   return std::max(K-S, 0.0); // Standard European put pay-off
 }
 
-#endif
+//#endif

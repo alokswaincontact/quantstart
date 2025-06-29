@@ -1,5 +1,5 @@
-#ifndef __ASIAN_CPP
-#define __ASIAN_CPP
+//#ifndef __ASIAN_CPP
+//#define __ASIAN_CPP
 
 #include <numeric>  // Necessary for std::accumulate
 #include <cmath>  // For log/exp functions
@@ -42,4 +42,4 @@ double AsianOptionGeometric::pay_off_price(const std::vector<double>& spot_price
   return (*pay_off)(geom_mean);
 }
 
-#endif
+//#endif
