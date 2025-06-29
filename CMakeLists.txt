@@ -16,5 +16,7 @@ target_include_directories(linear_congruent_generator PRIVATE include)
 add_executable(main_statistics src/main_statistics.cpp src/statistics.cpp)
 target_include_directories(main_statistics PRIVATE include)
 
-add_executable(main_correlation src/main_correlation.cpp src/correlated_snd.cpp src/statistics.cpp)
+add_executable(main_correlation src/main_correlation.cpp
+                                src/correlated_snd.cpp
+                                src/statistics.cpp)
 target_include_directories(main_correlation PRIVATE include)
