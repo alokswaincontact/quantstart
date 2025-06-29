@@ -24,3 +24,11 @@ add_executable(correlated_stocks src/main_correlation.cpp
                                 src/correlated_snd.cpp
                                 src/statistics.cpp)
 target_include_directories(correlated_stocks PRIVATE include)
+
+add_executable(heston src/main_heston.cpp
+                      src/heston_mc.cpp
+                      src/option.cpp
+                      src/payoff.cpp
+                      src/statistics.cpp
+                      src/correlated_snd.cpp)
+target_include_directories(heston PRIVATE include)
