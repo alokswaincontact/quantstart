@@ -1,4 +1,4 @@
-## QuantStart Quantitative Finance source code  
+# QuantStart Quantitative Finance source code  
 
 This repo contains Quantitative Finance source code taken from **QuantStart**  
 
@@ -8,7 +8,7 @@ There were some bugs in the code which I fixed and made it work.
 
 ## Details
 
-The code are taken from these articles and its equivalent executable:
+The code included are for these articles and its equivalent executable:
 
 Statistical Distributions in C++  
 https://www.quantstart.com/articles/Statistical-Distributions-in-C/
@@ -16,40 +16,40 @@ https://www.quantstart.com/articles/Statistical-Distributions-in-C/
 ./standard_distribution
 ```
 
-Random Number Generation via Linear Congruential Generators in C++ 
+Random Number Generation via Linear Congruential Generators in C++  
 https://www.quantstart.com/articles/Random-Number-Generation-via-Linear-Congruential-Generators-in-C/
 ```cmake
 ./linear_congruent_generator
 ```
 
-Generating Correlated Asset Paths in C++ via Monte Carlo 
+Generating Correlated Asset Paths in C++ via Monte Carlo  
 https://quantstart.com/articles/Generating-Correlated-Asset-Paths-in-C-via-Monte-Carlo/
 ```cmake
 ./correlated_stocks
 ```
 
-Asian option pricing with C++ via Monte Carlo Methods 
+Asian option pricing with C++ via Monte Carlo Methods  
 https://www.quantstart.com/articles/Asian-option-pricing-with-C-via-Monte-Carlo-Methods/
 ```cmake
 ./asian_option_mc
 ```
 
-European vanilla option pricing with C++ via Monte Carlo methods 
+European vanilla option pricing with C++ via Monte Carlo methods  
 https://www.quantstart.com/articles/European-vanilla-option-pricing-with-C-via-Monte-Carlo-methods/
 ```cmake
-add_executable(european_option_mc src/main_european_option_mc.cpp)
+./european_option_mc
 ```
 
-European vanilla option pricing with C++ and analytic formulae 
+European vanilla option pricing with C++ and analytic formulae  
 https://www.quantstart.com/articles/European-vanilla-option-pricing-with-C-and-analytic-formulae/
 ```cmake
-add_executable(european_option_bs src/main_european_option_bs.cpp)
+./european_option_bs
 ```
 
-Heston Stochastic Volatility Model with Euler Discretisation in C++ 
+Heston Stochastic Volatility Model with Euler Discretisation in C++  
 https://www.quantstart.com/articles/Heston-Stochastic-Volatility-Model-with-Euler-Discretisation-in-C/
 ```cmake
-add_executable(heston src/main_heston.cpp)
+./heston
 ```
 
 
